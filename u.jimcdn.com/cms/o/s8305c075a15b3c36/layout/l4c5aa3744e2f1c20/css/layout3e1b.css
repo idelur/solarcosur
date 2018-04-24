@@ -1,0 +1,184 @@
+/* -----------------------------------------------
+Clean With Stripes
+Author:   N. Macht
+Version:  1.0 Juni 2008
+----------------------------------------------- */
+/*  CSS Layout
+----------------------------------------------- */
+
+div#cc-tp-padding-container { 
+	position: relative;
+	padding:0px 0px;
+	text-align:center;
+}
+
+div#container {
+	position:relative;
+	width:930px;
+	margin:0 auto;
+	text-align:left;
+	padding:10px 0 0 0;
+}
+
+div#top{
+	position:relative;
+	width:930px;
+	height:47px;
+	margin:0;
+	padding:0;	
+	background:url('../../../../layout/l4c5aa3744e2f1c20/img/top.gif') top right no-repeat;
+	text-align:right;
+}
+
+div#color_bar {
+	width:667px;
+	height:30px;
+	position:absolute;
+	top:11px;
+	right:37px;
+	background: #5D5E5C;
+}
+	
+html > body div#top {background:url('../../../../layout/l4c5aa3744e2f1c20/img/top.png') no-repeat right top; }
+
+div#wrapper {
+	position:relative;
+	width:930px;
+	float:right;
+	margin:0;
+	padding:0;	
+	background:url('../../../../layout/l4c5aa3744e2f1c20/img/content_bg.gif') top right repeat-y;
+}
+	
+html > body div#wrapper {background:url('../../../../layout/l4c5aa3744e2f1c20/img/content_bg.png') top right repeat-y;}
+
+div#navigation {
+	width:223px;
+	padding:0;
+	margin:40px 0 20px 0;
+	float:left;
+	background:url('../../../../layout/l4c5aa3744e2f1c20/img/menu_bg.gif') 0 0 repeat-y;
+}
+
+div#navigation div.top {
+	margin:0;
+	padding:0;
+	width:223px;
+	height:5px;
+	background:url('../../../../layout/l4c5aa3744e2f1c20/img/menu_top.gif') 0 0 no-repeat;
+}
+
+div#navigation div.btm {
+	margin:0;
+	padding:0;
+	width:223px;
+	height:5px;
+	background:url('../../../../layout/l4c5aa3744e2f1c20/img/menu_btm.gif') left bottom no-repeat;
+}
+
+div#emotionheader {
+	border:1px solid #cccccc;
+}
+
+div#content {
+	position:relative;
+	z-index:10;
+	float:left;
+	width:420px;
+	border-right:1px solid #cccccc;
+	margin:10px 0 0 0;
+}
+
+div#sidebar {
+	position:relative;
+	z-index:5;
+	width:255px;
+	float:left;
+	margin:10px 0 0 0;
+}
+
+div#btm{
+	width:930px;
+	height:32px;
+	margin:0;
+	padding:0;	
+	background:url('../../../../layout/l4c5aa3744e2f1c20/img/bottom.gif') right top no-repeat;
+}
+	
+html > body div#btm {background:url('../../../../layout/l4c5aa3744e2f1c20/img/bottom.png') right top no-repeat;}
+
+
+div#footer {
+/*	width:930px;*/
+	color:#cccccc;
+}
+
+div#footer a {
+	color:#cccccc;
+}
+
+/* gutter */
+div#navigation .gutter {padding:14px 16px 16px 17px;}
+div#content .gutter { padding:0 25px 20px 25px; }
+div#sidebar .gutter { padding:0 20px 20px 20px; }
+div#footer .gutter{ padding:0 35px 20px 225px; }
+
+
+/*  MainNav Level 1
+----------------------------------------------- */
+
+ul.mainNav1 {
+	text-align:left;
+	padding:15px 0 15px 5px;
+	margin:0;
+	list-style:none;
+}
+
+ul.mainNav2,
+ul.mainNav3 {	
+	text-align:left;
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+
+ul.mainNav1 li,
+ul.mainNav2 li,
+ul.mainNav3 li {
+	display:inline;
+	margin:0;	
+	padding:0;
+}
+
+ul.mainNav1 li a {
+	text-decoration:none;
+	display:block;
+	color:#999999;
+	padding:4px 4px 4px 15px;
+	background:url('../../../../layout/l4c5aa3744e2f1c20/img/menu_bullet.gif') 0 11px no-repeat;
+	font-size:12px;
+	border:none;
+}
+
+ul.mainNav2 li a {
+	padding:2px 4px 2px 15px;
+	background:none;
+}
+
+ul.mainNav3 li a {
+	padding:2px 4px 2px 30px;
+	background:none;
+}
+
+ul.mainNav1 li a:hover {
+	color:#ffffff;
+}
+
+ul.mainNav1 li a.current,
+ul.mainNav2 li a.current,
+ul.mainNav3 li a.current {
+	color:#ffffff;
+	font-weight:bold;
+}
+
+
